@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugay - top 5 Kdrama</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        header {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        nav {
+            background-color: rgba(14, 1, 150, 0.7);
+            height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14pt;
+            padding: 10px;
+            display: block;
+        }
+
+        li {
+            padding-top: 30px;
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('bg1.webp'); /* Set the background image */
+            background-size: cover; /* Ensure the full image is visible */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center; /* Center the image */
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            margin-bottom: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 100px;
+            width: 900px;
+            max-height: 600px;
+            overflow-y: auto;
+            
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            flex: 1;
+            max-width: 300px;
+            margin-left: 20px;
+        }
+
+        .text {
+            flex: 2;
+            text-align: justify;
+        }
+
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+            }
+            .image {
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+        }
+        h2{
+            text-align: left;
+            text-indent: 10px;
+        }
+        p{
+         line-height:  20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bugay.html">Member 1</a></li>
+                <li><a href="Visita.html">Member 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-image"></div>
+
+    <div class="content">
+        <div class="container">
+            <h1>My Top 5 Favorite Kdrama</h1>
+            <h3>Bugay, Aler Ivan H. - BSCA - 1A</h3>
+
+            <h2>Top 1: Vincenzo</h2>
+            <div class="row">
+                <div class="text">
+                    <p style="text-align: justify;"><strong>Description:</strong>
+                    "Vincenzo" is a dark comedy crime drama that revolves around Vincenzo Cassano, a Korean-Italian mafia consigliere, who returns to South Korea due to a conflict within his organization. While in Korea, he becomes involved in a legal battle against a corrupt conglomerate and allies with a tenacious lawyer to bring justice through unconventional means.</p>
+                    <ul class="sample" style="text-align: justify;">
+                        <li>Song Joong-ki as Vincenzo Cassano / Park Joo-hyung</li>
+                        <li>Jeon Yeo-been as Hong Cha-young</li>
+                        <li>Ok Taec-yeon as Jang Jun-woo / Jang Han-seok</li>
+                        <li>Kim Yeo-jin as Choi Myung-hee</li>
+                        <li>Kwak Dong-yeon as Jang Han-seo</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img style="height: 300px;" src="vicenzo.jpg" alt="">
+                </div>
+            </div>
+            <h2>Top 2: Bloodhounds</h2>
+            <div class="row">
+                <div class="text">
+                    <p style="text-align: justify;"><strong>Description:</strong>
+                    "Bloodhounds" is an action thriller drama that follows the story of two young boxers who get entangled in the dangerous world of loan sharks while trying to save their loved ones from financial trouble. As they navigate through the perilous and violent underworld, they form an alliance to take down a ruthless moneylender.</p>
+                    <p><strong>Themes: </strong> Friendship and loyalty, Survival in the criminal underworld, Revenge, Sacrifice and redemption, The fight against exploitation</p>
+                    <ul class="sample" style="text-align: justify;">
+                        <li>Woo Do-hwan as Kim Gun-woo</li>
+                        <li>Lee Sang-yi as Hong Woo-jin</li>
+                        <li>Park Sung-woong as Kim Myung-gil</li>
+                        <li>Huh Joon-ho as President Choi</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img style="height: 300px;" src="bloodhounds.jpeg" alt="">
+                </div>
+            </div>
+
+            <h2>Top 3: Itaewon Class</h2>
+            <div class="row">
+                <div class="text">
+                    <p style="text-align: justify;"><strong>Description:</strong>
+                    "Itaewon Class" is a coming-of-age drama centered on Park Sae-ro-yi, who opens a bar-restaurant in Itaewon after being expelled from school and imprisoned following an incident involving a powerful conglomerate's heir. The series follows his journey of building a successful business, seeking revenge, and finding love while addressing social issues.</p>
+                    <p><strong>Themes: </strong> Revenge and redemption, Entrepreneurship, Social justice and equality, Overcoming adversity, Love and friendship</p>
+                    <ul class="sample" style="text-align: justify;">
+                        <li>Park Seo-joon as Park Sae-ro-yi</li>
+                        <li>Kim Da-mi as Jo Yi-seo</li>
+                        <li>Yoo Jae-myung as Jang Dae-hee</li>
+                        <li>Kwon Nara as Oh Soo-ah</li>
+                        <li>Ahn Bo-hyun as Jang Geun-won</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img style="height: 300px;" src="itaewoon.jpg" alt="">
+                </div>
+            </div>
+
+            <h2>Top 4: The Uncanny Counter</h2>
+            <div class="row">
+                <div class="text">
+                    <p style="text-align: justify;"><strong>Description:</strong>
+                    "The Uncanny Counter" follows a group of demon hunters known as Counters who disguise themselves as employees at a noodle restaurant. They use their special abilities to hunt down evil spirits that prey on humans. The drama combines elements of action, mystery, and the supernatural.</p>
+                    <p><strong>Themes: </strong>Good vs. evil, Supernatural abilities, Justice and retribution, Teamwork and camaraderie, and Personal growth and healing</p>
+                    <ul class="sample" style="text-align: justify;">
+                        <li>Jo Byung-gyu as So Mun</li>
+                        <li>Yoo Jun-sang as Ga Mo-tak</li>
+                        <li>Kim Se-jeong as Do Ha-na</li>
+                        <li>Yeom Hye-ran as Choo Mae-ok</li>
+                        <li>Ahn Suk-hwan as Choi Jang-mool</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img style="height: 300px;" src="uncanny.jpeg" alt="">
+                </div>
+            </div>
+
+            <h2>Top 5: Hotel De Luna</h2>
+            <div class="row">
+                <div class="text">
+                    <p style="text-align: justify;"><strong>Description:</strong>
+                        "Hotel Del Luna" is a fantasy romance drama about a mystical hotel that caters to ghosts, managed by a beautiful but hot-tempered CEO, Jang Man-wol. She is bound to the hotel due to a past sin, and the arrival of a new human manager begins to change her perspective on life and death.</p>
+                        <p><strong>Themes: </strong>Life and death, Redemption and forgiveness, Love and loss, Supernatural elements, Healing and transformation</p>
+                        <ul class="sample" style="text-align: justify;">
+                        <li>IU (Lee Ji-eun) as Jang Man-wol</li>
+                        <li>Yeo Jin-goo as Goo Chan-sung</li>
+                        <li>Jung Dong-hwan as No Joon-suk</li>
+                        <li>Shin Jung-geun as Kim Sun-bi</li>
+                        <li>Bae Hae-sun as Choi Seo-hee</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img style="height: 300px;" src="hoteldeluna.jpeg" alt="">
+                </div>
+            </div>
+            <h3>Leader: Bugay, Aler Ivan H. </h3>
+            <h3>Member: Visita, Jonard </h3>
+        </div>
+    </div>
+</body>
+
+</html>
